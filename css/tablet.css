@@ -1,0 +1,118 @@
+@media all and (min-width:768px){
+    .tablet{
+        display: block;
+    }
+    .bn .mobile{
+        display: none;
+    }
+    .s1{
+        margin-top: 48px;
+        display: flex;
+        flex-wrap: wrap;
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .s1 .item{
+        width: 50%;
+        margin-bottom: 48px;
+    }
+    
+    .s1 .txt1{
+        text-align: left;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .s1 .txt2{
+        text-align: right;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .s1 .photo2{
+        order: 2;
+    }
+    .s2 h2{
+        margin-bottom: 24px;
+    }
+    .con{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .s2 .item{
+        width: 48%;
+        box-sizing: border-box;
+    }
+
+    .s2 .btnPlus{
+        margin-top: 24px;
+    }
+    .s3{
+        padding: 48px 20px;
+        background-position: unset;
+        text-align: left;
+    }
+    .s3:after{
+        content: none;
+    }
+    .s3 .txt{
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .s3 .txt em{
+        font-family: donut;
+        font-size: 30px;
+        font-style: normal;
+    }
+
+    .s3 h2{
+        font-size: 28px;
+    }
+    .s3 .btn{
+        display: flex;
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 12px;
+    }
+    .s3 a{
+        width: 120px;
+        text-align: center;
+        margin-left: 0px;
+        margin-right: 12px;
+        
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2);
+    }
+    
+    .s4{
+        position: relative;
+        display: flex;
+        padding-top: 120px;
+    }
+    .sns{
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%);
+    }
+    .franchise{
+        margin-right: 12px;
+    }
+    .collabo{
+        margin-left: 12px;
+    }
+    .fWrap{
+        max-width: 1320px;
+        margin-left: auto;
+        margin-right: auto;
+        padding:0 20px;
+        text-align: left;    
+    }
+}/* tablet 괄호 끝!! */
